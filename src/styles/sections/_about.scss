@@ -1,0 +1,35 @@
+@import '../components/mixin';
+.about {
+    background: $thirdary;
+}
+.about-title {
+    color: #641014;
+    text-align: center;
+    font-weight: 700;
+}
+.parent {
+    text-align: center; 
+}
+%card-default {
+    display: inline-block;
+    border-radius: 22px;
+    background-color: #641014;
+}
+
+.card {
+    @extend %card-default;
+    height: 300px;
+    width: 230px;
+}
+
+.card-rectangle {
+    @extend %card-default;
+    width: 1100px;
+    height: 400px;
+}
+
+.img-booth {
+    height: inherit;
+    width: 70%;
+    padding: 1rem;
+}

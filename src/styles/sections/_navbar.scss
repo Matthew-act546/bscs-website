@@ -1,0 +1,35 @@
+@import '../components/mixin';
+
+.navbar-title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    height: 64px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center; /* Aligns items vertically to the center */
+}
+.icon {
+    width: 36px;
+    height: 36px;
+    color: #fff;
+}
+
+.navbar-gradient {
+    @include gradient;
+}
+#logo {
+    width: 60px;
+    height: 60px; 
+    margin: 0 10px;
+}
+
+.offcanvas-style {
+    color: #fff;
+    outline: none;
+    border: none;
+    border: 1px solid transparent;
+}
