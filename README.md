@@ -24,7 +24,7 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone placeholderrrrrrrr
+   git clone git@github.com:Matthew-act546/bscs-website.git
 2. Navigate to the project directory:
    ```bash
    cd bscs-society
