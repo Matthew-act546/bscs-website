@@ -13,8 +13,6 @@ export default defineConfig({
         additionalData: `@import "src/styles/_variables.scss";`,
         quietDeps: true,
       },
-      
-      
     }
   },
   root: './src',

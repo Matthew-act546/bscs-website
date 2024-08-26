@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import Navigationalbar from './components/Navigationalbar';
 import Home from './pages/Home';

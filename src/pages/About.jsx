@@ -1,7 +1,7 @@
 function About(){
     return (
         <section className="about "> 
-            <h1 className="about-title p-4">About us</h1>
+            <h1 className="site--title p-4">About us</h1>
             <div className="parent"> 
                 <div className="card mx-5"></div>
                 <div className="card mx-5"></div>

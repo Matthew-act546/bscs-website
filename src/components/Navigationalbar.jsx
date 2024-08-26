@@ -13,15 +13,16 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 function Navigationalbar() {
     
     return (
-        <>
+        
         <Navbar key={false} expand={false} className="navbar-gradient">
           <Container fluid>
-            
-            <div className='navbar-content'>
-            <img src="../assets/images/cslogo.png" id='logo' alt="csLogo" />
-            <Navbar.Brand className='navbar-title' href="#home">Computer Science Society</Navbar.Brand>
+            <div className='navbar-content' >
+              <a href="#home">
+                <img src="../assets/images/cslogo.png" id='logo' alt="csLogo" />
+              </a>
+              <Navbar.Brand className='navbar-title' href="#home">Computer Science Society</Navbar.Brand>
             </div>
-            
+
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} className="offcanvas-style me-3" > 
               <FontAwesomeIcon className='icon' icon={faBars} />
             </Navbar.Toggle>
@@ -29,7 +30,6 @@ function Navigationalbar() {
               id={`offcanvasNavbar-expand-${false}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${false}`}
               placement="end"
-              
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title  id={`offcanvasNavbarLabel-expand-${false}`}>
@@ -50,14 +50,12 @@ function Navigationalbar() {
                   <Nav.Link href="#action1">Home</Nav.Link>
                   <Nav.Link href="#action2">About</Nav.Link>
                   <Nav.Link href="#action2">Announcements</Nav.Link>
-                  
                 </Nav>
-               
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
         </Navbar>
-        </>
+        
         
         // <Navbar className="navbar-gradient">
         //     <Container>

@@ -1,15 +1,17 @@
+@import '../components/mixin';
+
 .announcement {
     background-color: $secondary;
 }
 
 .card1 {
-    @extend %card-default;
+    @include card-style;
     width: 380px;
     height: 500px;
 }
 
 .card2 {
-    @extend %card-default;
+    @include card-style;
     display: inline-block;
     height: 500px;
     width: 600px;

@@ -2,8 +2,8 @@ function Section() {
 
     return (
         <section className="section3">
-            <h2 className="about-title text-white p-5">Hi</h2>
-            <div className="card2"></div>
+            <h2 className="site--title text-white p-5">TBA</h2>
+            <div className="card3"></div>
             <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1440 320"
@@ -33,10 +33,6 @@ function Section() {
       />
     </svg>
 
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      
-    </svg>
 
         </section>
     )

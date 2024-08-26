@@ -2,6 +2,12 @@
     background: linear-gradient(to bottom, #641014, #d41a1a);
 }
 
+@mixin card-style {
+    display: inline-block;
+    border-radius: 22px;
+    background-color: #641014;
+}
+
 @mixin absoluteCenter {
     position: absolute;
     top: 50%;
