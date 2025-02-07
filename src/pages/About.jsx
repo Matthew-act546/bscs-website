@@ -7,7 +7,7 @@ function About(){
                 <div className="card mx-5"></div>
                 <div className="card mx-5"></div>
                 <div className="card-rectangle m-5">
-                    <img src="../assets/images/cs-photobooth.png" className="img-booth" alt="cs booth photo" />
+                    <img src="./assets/images/cs-photobooth.png" className="img-booth" alt="cs booth photo" />
                 </div>
             </div>
         

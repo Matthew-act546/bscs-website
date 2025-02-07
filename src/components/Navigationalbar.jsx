@@ -16,7 +16,7 @@ function Navigationalbar() {
           <Container fluid>
             <div className='navbar-content' >
               <a href="#home">
-                <img src="../assets/images/cslogo.png" id='logo' alt="csLogo" />
+                <img src="./assets/images/cslogo.png" id='logo' alt="csLogo" />
               </a>
               <Navbar.Brand className='navbar-title' href="#home">Computer Science Society</Navbar.Brand>
             </div>
