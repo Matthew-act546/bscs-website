@@ -1,12 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { createRequire } from 'module';
+// import { createRequire } from 'module';
 
-const require = createRequire(import.meta.url);
-const sass = require('sass');
+// const require = createRequire(import.meta.url);
+// const sass = require('sass');
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/bscs-website/',
   css: {
     preprocessorOptions: {
       scss: {
@@ -18,9 +19,10 @@ export default defineConfig({
   root: './src',
   build: {
     outDir: '../dist',
+    emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: './public/index.html',
+        main: './src/index.html',
       }
     }
   }
