@@ -16,13 +16,13 @@ export default defineConfig({
       },
     }
   },
-  root: './src',
+  root: './',
   build: {
     outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: './src/index.html',
+        main: './index.html',
       }
     }
   }

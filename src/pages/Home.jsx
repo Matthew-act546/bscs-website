@@ -13,7 +13,7 @@ function Home() {
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src="./assets/images/section1.png" // Replace with your image path
+                src="./src/assets/images/section1.png" // Replace with your image path
                 alt="First slide"
             />
             <Carousel.Caption>
@@ -24,7 +24,7 @@ function Home() {
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src="./assets/images/section1.png" // Replace with your image path
+                src="./src/assets/images/section1.png" // Replace with your image path
                 alt="First slide"
             />
             <Carousel.Caption>
@@ -35,7 +35,7 @@ function Home() {
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src="./assets/images/section1.png" // Replace with your image path
+                src="./src/assets/images/section1.png" // Replace with your image path
                 alt="First slide"
             />
             <Carousel.Caption>
